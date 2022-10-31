@@ -3,6 +3,8 @@
 //
 
 var music = document.getElementById('music1'); // id for audio element
+var pButton = document.getElementById('pButton1'); // play button
+var lastid = 0;
 var pButton1 = document.getElementById('pButton1'); // play button
 var pButton2 = document.getElementById('pButton2'); // play button
 var pButton3 = document.getElementById('pButton3'); // play button
@@ -96,17 +98,22 @@ function timeUpdate() {
 
 //Play and Pause
 function play(id) {
-	console.log(document.getElementById('music' + id));
+	console.log(music);
+	if (music !== null && ('music' + id) != music.id) {
+		music.pause(); // 
+        pButton.className = "";
+        pButton.className = "play";
+	}
 	music = document.getElementById('music' + id);
     pButton = document.getElementById('pButton' + id); // play button
-    // start music
+   // start music
     if (music.paused) {
         music.play();
         // remove play, add pause
         pButton.className = "";
         pButton.className = "pause";
     } else { // pause music
-        music.pause();
+		music.pause();
         // remove pause, add play
         pButton.className = "";
         pButton.className = "play";

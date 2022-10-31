@@ -27,8 +27,9 @@
 .pause{background: url('../img/pause.png') ;}
 
 #timeline{
-    width: 100%;
+    width: 33%;
     height: 20px;
+    margin-left: 33%;
     margin-top: 20px;
     float: left;
     border-radius: 15px;
