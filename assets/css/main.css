@@ -4019,24 +4019,11 @@ input, select, textarea {
 		text-align: center;
 	}
 	
-		#footer .spotlight {
-			background: none; 
-			margin: auto 20%;
-			padding: 0;
+		#footer a span {
+			font-family: "Slackey", Slackey;
+			font-style: italic;
 		}
-			#footer .actions {
-				margin: 10px 0 0 20px;
-			}		
 
-			#footer .actions {
-				width: 520px;
-			}		
-
-		#footer content {
-			padding: 0; 
-			
-		}
-		
 		#footer .icons {
 			font-size: 1.25em;
 		}
@@ -4106,6 +4093,9 @@ input, select, textarea {
 				padding: 3em 2em 1em 2em ;
 			}
 
+			#footer img {
+				width: 100px;
+			}
 		}
 
 /* Landing */
