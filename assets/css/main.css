@@ -4016,19 +4016,22 @@ input, select, textarea {
 	#footer {
 		padding: 6em 0 4em 0 ;
 		background-color: #1d242a;
-		/*background-image: url("../../images/stereo-fox3-with-speaker.png");
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: 100%;*/
 		text-align: center;
 	}
 	
-		#footer spotlight {
-			width:100%;
-			text-align: left;
-			padding: 0px;
+		#footer .spotlight {
+			background: none; 
+			margin: auto 20%;
+			padding: 0;
 		}
-		
+			#footer .actions {
+				margin: 10px 0 0 20px;
+			}		
+
+			#footer .actions {
+				width: 520px;
+			}		
+
 		#footer content {
 			padding: 0; 
 			
