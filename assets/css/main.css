@@ -3633,10 +3633,10 @@ input, select, textarea {
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
 			transform: scale(1);
-			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
-			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
-			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
-			transition: transform 0.5s ease, opacity 0.5s ease;
+			-moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease;
+			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease;
+			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease;
+			transition: transform 0.25s ease, opacity 0.25s ease;
 			display: inline-block;
 			opacity: 1;
 			padding: 0.35em 1em;
@@ -3691,14 +3691,14 @@ input, select, textarea {
 			}
 
 		#banner .more {
-			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
-			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
-			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
-			transition: transform 0.75s ease, opacity 0.75s ease;
-			-moz-transition-delay: 3.5s;
-			-webkit-transition-delay: 3.5s;
-			-ms-transition-delay: 3.5s;
-			transition-delay: 3.5s;
+			-moz-transition: -moz-transform 0.75s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.75s ease, opacity 0.5s ease;
+			transition: transform 0.75s ease, opacity 0.5s ease;
+			-moz-transition-delay: 2.5s;
+			-webkit-transition-delay: 2.5s;
+			-ms-transition-delay: 2.5s;
+			transition-delay: 2.5s;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -4094,7 +4094,7 @@ input, select, textarea {
 			}
 
 			#footer img {
-				width: 100px;
+				width: 156px;
 			}
 		}
 
